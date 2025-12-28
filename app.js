@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hai from Dockerized Node.js app! webhook Test');
+  res.send('Dockerized Node.js app! webhook Test');
 });
 
 app.listen(port, () => {
